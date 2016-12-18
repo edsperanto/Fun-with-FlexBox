@@ -4,14 +4,20 @@
 @import "./partials/reset";
 
 // 1. Many small items in a grid
-.small-grid-flex-box {
-	background-color: orange;
+.small-grid-flexbox {
 	ul {
-		display: flex-box;
+		display: flex;
 		flex-flow: row wrap;
 		align-items: center;
+		justify-content: center;
 		width: 400px;
 		margin: auto;
+		li {
+			flex: 0 0 10%;
+			padding: 10px;
+			box-sizing: border-box;
+			text-align: center;
+		}
 	}
 }
 
