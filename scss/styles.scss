@@ -1,9 +1,19 @@
 // Imports
-
-
+@import "./partials/general_styles";
+@import "./partials/clearfix";
+@import "./partials/reset";
 
 // 1. Many small items in a grid
-
+.small-grid-flex-box {
+	background-color: orange;
+	ul {
+		display: flex-box;
+		flex-flow: row wrap;
+		align-items: center;
+		width: 400px;
+		margin: auto;
+	}
+}
 
 
 // 2. 2-Column Grid
